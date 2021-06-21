@@ -29,6 +29,7 @@ module BQHl
     config.load_defaults 6.1
     config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
     config.i18n.default_locale = :fr
+    config.assets.initialize_on_precompile = false
 
     # Configuration for the application, engines, and railties goes here.
     #
