@@ -36,6 +36,7 @@ gem 'spree_auth_devise', '~> 4.3'
 gem 'spree_gateway', '~> 3.9'
 gem 'sassc', github: 'sass/sassc-ruby'
 gem 'spree_i18n', '~> 5.0'
+gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
 # gem 'spree_globalize', github: 'spree-contrib/spree_globalize'
 
 group :development, :test do
