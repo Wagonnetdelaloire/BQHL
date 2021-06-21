@@ -480,6 +480,7 @@ DEPENDENCIES
   spree_globalize!
   spree_i18n (~> 5.0)
   spring
+  sprockets (= 3.7.2)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
