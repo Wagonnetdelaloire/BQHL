@@ -31,6 +31,12 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
+gem 'spree', '~> 4.2.0.rc4'
+gem 'spree_auth_devise', '~> 4.3'
+gem 'spree_gateway', '~> 3.9'
+gem 'sassc', github: 'sass/sassc-ruby'
+gem 'spree_i18n', '~> 5.0'
+# gem 'spree_globalize', github: 'spree-contrib/spree_globalize'
 
 group :development, :test do
   gem 'pry-byebug'
